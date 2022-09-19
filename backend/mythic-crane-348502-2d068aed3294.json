@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mythic-crane-348502",
+  "private_key_id": "2d068aed3294a14f80fba0a68dbfa078b8d920b4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDsSNr25Pzszh2w\njldagBrHM2RkJP+r7QZQx+yMJb64WaWafflROPIBUGHiyDwaXLyMGTf9gZEIUhk6\nUwb0QdtMQYro696wUQXdX5CUh5Y49v3r7BvQar2sakV8pd4J9VwtbPWRfE/wQsXb\n0AfqhbdLq/6rhMExiK7e82CKAhnMnZb6wvUrcLVv6PMmzrWgt9Zj02WSHO2gV4Ka\nqN/HTCB6oQUivHGFMi+6NzzeqltKEpcYexjVvbprbtKtkY7+gDKu9cUxnnH5MQo/\nPuUkEkUFdu8YNonlkElv8xMSntmgWZnIpJ1IonY79ImdokSGZT7wZ0t3+CyEvRLG\nN0C/AJMtAgMBAAECggEAPwB8FfnfsLqSswl5JEHlIflDiupMm8iC9xYfrgzAakJJ\nBEUTrcML0CrhNsliMTtJ8OcmhTs/cyME5AbQY1+N/Cq7wbhms8ee0zSQhfITLZQ6\nB2Z40h0r/uWFKqPFbQ1Vqy0S21x0qiD7xc0V10QZKB2vtYcbxjvmOL9XHeVKgMJ/\nGWs0XMlyxqvaKVuCiVeCIhZKyKuqKxTWNYJhJmmYdhrxjxRLKc/m2cFo8aWMoFZg\np5HCc80mzcqdyGTU/fENn9cAJ4wJI/izH8hoDtNHlXwt0K55ohR3oBJoqCKUjPYk\nATSkEPqvZZSacPgtkrAMO6zf3imtuNjwXW398HoAZwKBgQD6sZ5NxfgIPtzjFioi\noQcfvAAuIzjh5eTZijW/4vEgZtIcQBT5lN1EUpPwe0SVOOFxrQnwO7qRZ3Axbsdz\nDyYxYJR6PwW+ZTg7aWy21G6brgWlQjkvMXg0lYiQgJuuL/9uPegaEb3TxPpvEzIN\nNchAlDSHtWWubzJFKOSMBYrNPwKBgQDxSSkj1TlHMJVx30NHQOk7tkke9+XIwKqt\nbMPOgeeID/MKlHC/XOicPd/dlTFWb7pT//izBx24Duj2J/LWasbHn6nNeGuzldH0\neJxHY2tIWRCYNSp6kPZLtZBNsNq0MfwWu+Y9JkEi0s16zegjwlxb/AjfY6W8o5A/\n9YZmba1IkwKBgBDDG5Cbsg/rFB3i94JFPhKzIVf0ZvNDyd95zEo+RF0kQtw8tKpT\nd8//rYCg3V8U5I4TQdzcQYdDYU8M1y0sUCNxD7x0xk+KuQ3P6ML4xUSHiD0ahnRP\nXHg3n1/6GW62KuAWJ5TGpuin/Q68O9aCSBd5UWHZkSjuqm/RYiayoCtFAoGASSLs\n9nCWOQ7v7aFIClwRlkjtpxZrL0u/MGwsefcEUEjNWaKe/lJSK7HRnp+vYcziBL4t\nC08X4gea86ouQHIDKNUrqh1bQAckqd65OCZZiYd9sTVEV/yCu3YgdHwr/ry79cQk\nyNpEmiKdqCCrwdMTHcqqgdP5k9FcUxbAE2IhSUMCgYEA5Dk6popOzJKa3Ejo7eYR\nzVnnFqgDZlFSPOb4BKUIB11aNJgg8ZbfgHdpuLMyzbtWtyUYAjcUnfvr30+z5nj/\n6TTEQu1Ak6/eZXQUTSL46esdxiDEDUoEotaO5I6szmKIvL8cq0jhtwrDYZie0kX9\nZb+DkMc7EGPwSDKnSntxiQM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sweproject@mythic-crane-348502.iam.gserviceaccount.com",
+  "client_id": "100524707807829466499",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sweproject%40mythic-crane-348502.iam.gserviceaccount.com"
+}
