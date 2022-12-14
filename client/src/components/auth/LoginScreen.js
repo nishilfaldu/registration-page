@@ -26,8 +26,8 @@ const LoginScreen = (props) => {
 
     const register = (e) => {
         e.preventDefault();
-
-        axios.post('http://localhost:5500/login/add', {
+        console.log(window.location);
+        axios.post(`http://${window.location.hostname}:5500/login/add`, {
             firstName: firstnameRef.current.value,
             lastName: lastnameRef.current.value,
             emailAddress: emailRef.current.value,
@@ -51,7 +51,8 @@ const LoginScreen = (props) => {
     const signIn = (e) => {
         console.log(signInEmailRef.current.value);
         e.preventDefault();
-        axios.post('http://localhost:5500/login/find', {
+        console.log(window.location);
+        axios.post(`http://${window.location.hostname}:80/login/find`, {
             emailAddress: signInEmailRef.current.value
         })
         .then(res => {
