@@ -24,59 +24,59 @@ const LoginScreen = (props) => {
 
     let navigate = useNavigate();
 
-    const register = (e) => {
-        e.preventDefault();
-        console.log(window.location);
-        axios.post(`http://${window.location.hostname}:5500/login/add`, {
-            firstName: firstnameRef.current.value,
-            lastName: lastnameRef.current.value,
-            emailAddress: emailRef.current.value,
-            userName: usernameRef.current.value,
-            password: passwordRef.current.value,
-        })
-            .then(res => {
-                setLoginStatus(!loginStatus);
-                // console.log('successful');
-                // navigate('/info');
-                setUserName(usernameRef.current.value);
-                setEmail(emailRef.current.value);
-                setFirstName(firstnameRef.current.value);
-                setLastName(lastnameRef.current.value);
+    // const register = (e) => {
+    //     e.preventDefault();
+    //     console.log(window.location);
+    //     axios.post(`http://${window.location.hostname}:5500/login/add`, {
+    //         firstName: firstnameRef.current.value,
+    //         lastName: lastnameRef.current.value,
+    //         emailAddress: emailRef.current.value,
+    //         userName: usernameRef.current.value,
+    //         password: passwordRef.current.value,
+    //     })
+    //         .then(res => {
+    //             setLoginStatus(!loginStatus);
+    //             // console.log('successful');
+    //             // navigate('/info');
+    //             setUserName(usernameRef.current.value);
+    //             setEmail(emailRef.current.value);
+    //             setFirstName(firstnameRef.current.value);
+    //             setLastName(lastnameRef.current.value);
                 
-            })
-            .catch(err => console.error(err));
+    //         })
+    //         .catch(err => console.error(err));
         
-    }
+    // }
 
-    const signIn = (e) => {
-        console.log(signInEmailRef.current.value);
-        e.preventDefault();
-        console.log(window.location);
-        axios.post(`http://${window.location.hostname}:80/login/find`, {
-            emailAddress: signInEmailRef.current.value
-        })
-        .then(res => {
-            console.log(res.data);
-            if(res.data.password === passwordSignInRef.current.value){
-                let u = res.data.userName;
-                let f = res.data.firstName;
-                let l = res.data.lastName;
-                let e = res.data.emailAddress;
-                setUserName(u);
-                setEmail(e);
-                setFirstName(f);
-                setLastName(l);
-                console.log(username);
+    // const signIn = (e) => {
+    //     console.log(signInEmailRef.current.value);
+    //     e.preventDefault();
+    //     console.log(window.location);
+    //     axios.post(`http://${window.location.hostname}:80/login/find`, {
+    //         emailAddress: signInEmailRef.current.value
+    //     })
+    //     .then(res => {
+    //         console.log(res.data);
+    //         if(res.data.password === passwordSignInRef.current.value){
+    //             let u = res.data.userName;
+    //             let f = res.data.firstName;
+    //             let l = res.data.lastName;
+    //             let e = res.data.emailAddress;
+    //             setUserName(u);
+    //             setEmail(e);
+    //             setFirstName(f);
+    //             setLastName(l);
+    //             console.log(username);
 
-                setLoginStatus(!loginStatus);
-                // navigate('/info');
-            }
-            else{
-                console.log('wrong password hehe!')
-            }
-        })
-        // navigate('/info');
-    }
+    //             setLoginStatus(!loginStatus);
+    //             // navigate('/info');
+    //         }
+    //         else{
+    //             console.log('wrong password hehe!')
+    //         }
+    //     })
+    //     // navigate('/info');
+    // }
 
     function handleSignUp(){
         const container = document.getElementById('loginScreen__container');
@@ -107,7 +107,9 @@ const LoginScreen = (props) => {
                     <input type="email" placeholder="Email" ref={emailRef}/>
                     <input type="username" placeholder="Username" ref={usernameRef}/>
                     <input type="password" placeholder="Password" ref={passwordRef}/>
-                    <button className="loginScreen__signUp" onClick={register}>Sign Up</button>
+                    <button className="loginScreen__signUp" 
+                    // onClick={register}
+                    >Sign Up</button>
                 </form>
             </div>
 
@@ -124,7 +126,10 @@ const LoginScreen = (props) => {
                     <input type="email" placeholder="Email" ref={signInEmailRef}/>
                     <input type="password" placeholder="Password" ref={passwordSignInRef}/>
                     <a href="#">Forgot your password?</a>
-                    <button className="loginScreen__signIn" onClick={signIn}>Sign In</button>
+                    <button className="loginScreen__signIn" 
+                    // onClick={signIn}
+                    >Sign In
+                    </button>
                 </form>
             </div>
 
